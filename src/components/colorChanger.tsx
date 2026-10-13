@@ -13,7 +13,6 @@ export default function ColorChanger() {
   document.body.style.backgroundColor = hatterszin;
   return (
     <>
-      <h2>Color Changer</h2>
       <button
         type="button"
         onClick={() => setHatterszin(veletlenSzin())}

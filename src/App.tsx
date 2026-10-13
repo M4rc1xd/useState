@@ -19,6 +19,8 @@ function App() {
 
       <Fejlec title="Color Changer" />
       <ColorChanger />
+
+      
       <Lablec />
     </>
   );
