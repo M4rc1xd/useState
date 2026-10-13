@@ -5,6 +5,7 @@ import bulbOff from "./assets/pic_bulboff.gif";
 import bulbOn from "./assets/pic_bulbon.gif";
 import KepBetolto from "./components/kepBetolto";
 import { useState } from "react";
+import SzovegFuggvenyek from "./components/szovegFuggvenyek";
 
 function App() {
   const [isBulbOn, setIsBulbOn] = useState(false);
@@ -20,7 +21,8 @@ function App() {
       <Fejlec title="Color Changer" />
       <ColorChanger />
 
-      
+      <Fejlec title="Feladat szövegfüggvényekkel" />
+      <SzovegFuggvenyek />
       <Lablec />
     </>
   );
